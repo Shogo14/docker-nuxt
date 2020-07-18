@@ -1,4 +1,4 @@
-FROM node
+FROM node:12.18.2
 
 COPY package.json yarn.lock ./
 RUN yarn
